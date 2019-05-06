@@ -10,7 +10,7 @@
     <failOnMissingWebXml>false</failOnMissingWebXml>
   </properties> 
 <dependencies>
-	<!-- Just test -->
+	<!-- Just test only -->
     <!-- Servlet API code test-->
     <dependency>
       <groupId>javax.servlet</groupId>
