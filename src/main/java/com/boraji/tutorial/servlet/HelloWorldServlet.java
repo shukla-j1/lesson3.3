@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author imssbora
  */
 @WebServlet("/hello")
-public class HelloWorldServlet extends HttpServlet {
+public class HelloWorldsERVLEt extends HttpServlet {
 
    private static final long serialVersionUID = 1L;
 
