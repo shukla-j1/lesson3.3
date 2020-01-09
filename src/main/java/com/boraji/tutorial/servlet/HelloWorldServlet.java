@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author imssbora
  */
 @WebServlet("/hello")
-public class HelloWorldsERVLEt extends HttpServlet {
+public class HelloWorldServlet extends HttpServlet {
 
    private static final long serialVersionUID = 1L;
 
@@ -19,6 +19,6 @@ public class HelloWorldsERVLEt extends HttpServlet {
    protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
          throws ServletException, IOException {
       resp.setContentType("text/plain");
-      resp.getWriter().write("Hello World! Maven Web Project Example.");
+      resp.getWriter().write("HeLLo World! Maven Web Project Example.");
    }
 }
